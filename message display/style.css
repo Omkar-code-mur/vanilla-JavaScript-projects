@@ -1,0 +1,47 @@
+body{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 500px;
+    height: 300px;
+    margin: 25vh 55vh;
+    padding: 20px;
+    box-shadow: 6px 6px 30px rgb(0, 0, 0,0.3);
+    border-radius: 10px;
+    background-color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    
+}
+input{
+    width: 90%;
+    height: 30px;
+    margin: 10px;
+}
+
+button{
+    width: 70px;
+    height: 35px;
+    background-color: rebeccapurple;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: medium;
+    margin: 5px;
+
+}
+
+
+.alert{
+    font-size: 0;
+}
+.show{
+    color: red;
+    font-size: 1rem;
+    background-color: orange;
+    padding: 5px;
+}

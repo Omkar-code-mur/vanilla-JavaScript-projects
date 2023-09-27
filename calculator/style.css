@@ -1,0 +1,89 @@
+body{
+    margin: 20px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+
+.calculator{
+    width: 350px;
+    height: 500px;
+    background-color: rgb(37, 36, 36);
+    border-radius: 10px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 6px 6px 30px rgb(0, 0, 0,0.3);
+    overflow: hidden;
+}
+
+.screen{
+    width: 90%;
+    height: 100px;
+    text-align: right;
+    padding: 1rem;
+    font-size: 3rem;
+    background-color: black;
+    color: white;
+    pointer-events: none;
+}
+
+
+.btn {
+    width: 60px;
+    height: 52px;
+    margin: 10px;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 12px;
+    border: 1px solid grey;
+    box-shadow: 2px;
+    cursor: pointer;
+}
+
+.btn-clear{
+    width: 60px;
+    height: 52px;
+    margin: 10px;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 12px;
+    border: 1px solid grey;
+    box-shadow: 2px;
+    cursor: pointer;
+    color: white;
+    background-color: red;
+}
+
+.btn-equal{
+    width: 60px;
+    height: 52px;
+    margin: 10px;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 12px;
+    border: 1px solid grey;
+    box-shadow: 2px;
+    cursor: pointer;
+    color: white;
+    background-color: green;
+}
+
+.btn-yellow{
+    
+    color: white;
+    background-color: orange;
+}
+.btn-grey{
+    
+    color: black;
+    background-color: lightgrey;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
